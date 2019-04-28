@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:Tweeties.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Downloads/Twitter/Twitter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Desktop/m3mDZKEdSK0nt5TbAuel_Twitter-DucTran/Tweeties-Starter/Twitter/Twitter.xcodeproj">
+   </FileRef>
+</Workspace>
