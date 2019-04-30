@@ -7,4 +7,5 @@ target 'Tweeties' do
 
   # Pods for Tweeties
 pod 'TwitterKit'
+pod 'TwitterCore'
 end

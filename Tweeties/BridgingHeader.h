@@ -8,6 +8,6 @@
 
 #ifndef BridgingHeader_h
 #define BridgingHeader_h
-#import "TwitterKit/TWTRKit.h"
+#import "/Users/mac/IOS/RESTTwitterSimple/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTwitter.h"
 
-#endif /* BridgingHeader_h */
+#endif

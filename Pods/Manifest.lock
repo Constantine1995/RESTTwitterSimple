@@ -4,6 +4,7 @@ PODS:
     - TwitterCore (>= 3.2.0)
 
 DEPENDENCIES:
+  - TwitterCore
   - TwitterKit
 
 SPEC REPOS:
@@ -15,6 +16,6 @@ SPEC CHECKSUMS:
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
   TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
 
-PODFILE CHECKSUM: cd56747277e2512f9e34240570daeae43f7b160f
+PODFILE CHECKSUM: 2e48efd516a57ec7a78059c83dff81be7aa93fee
 
 COCOAPODS: 1.5.3

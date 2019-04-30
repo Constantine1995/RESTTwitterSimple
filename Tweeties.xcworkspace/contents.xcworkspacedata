@@ -10,4 +10,10 @@
    <FileRef
       location = "group:../../Desktop/m3mDZKEdSK0nt5TbAuel_Twitter-DucTran/Tweeties-Starter/Twitter/Twitter.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Tweeties.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>
