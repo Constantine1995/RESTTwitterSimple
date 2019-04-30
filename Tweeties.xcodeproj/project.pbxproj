@@ -33,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		042D19EF2276039A007A394B /* TweetsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsTableViewController.swift; sourceTree = "<group>"; };
+		042D19F222782F9D007A394B /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		52A10F291EAF858800D6E896 /* Tweeties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweeties.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A10F2C1EAF858800D6E896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A10F311EAF858800D6E896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				52A10F2C1EAF858800D6E896 /* AppDelegate.swift */,
+				042D19F222782F9D007A394B /* BridgingHeader.h */,
 				5231C9FA1F218E8A004F7AC3 /* Controllers */,
 				5231C9F91F218E81004F7AC3 /* Views */,
 				5231C9F81F218E74004F7AC3 /* Model */,
@@ -342,7 +344,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lordkosstestios.lordkoss.Tweeties;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/mac/IOS/RESTTwitterSimple/Tweeties/BridgingHeader.h;
 				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Debug;
 		};
@@ -355,7 +359,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lordkosstestios.lordkoss.Tweeties;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/mac/IOS/RESTTwitterSimple/Tweeties/BridgingHeader.h;
 				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Release;
 		};
